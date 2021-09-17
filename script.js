@@ -38,17 +38,23 @@ const c=document.getElementById("option3");
 const d=document.getElementById("option4");
 const submit=document.getElementById("sub");
 var index=0;
+loadQuestion();
 
-const current=questions[index];
-submit.addEventListener("click",loadQuestion);
+
+submit.addEventListener("click",()=>{
+    index++;
+    loadQuestion();
+});
 function loadQuestion(){
+    const current=questions[index];
+    if(index==(questions.length-1)){
+        submit.innerHTML="Submit";
+    }
     que.innerHTML=current.question;
     a.innerHTML=current.a;
     b.innerHTML=current.b;
     c.innerHTML=current.c;
     d.innerHTML=current.d;
-    index++;
     
 }
-document.getElementsByClassName
 

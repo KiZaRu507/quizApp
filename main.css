@@ -29,8 +29,13 @@ ul{
     bottom: 0;
     height: 20%;
     border-radius: 1rem;
-    
+    font-size: 1.5rem;
+    cursor: pointer;
 }
 h2{
     margin-left: 2rem;
+}
+.submit:hover{
+    color: royalblue;
+    
 }
