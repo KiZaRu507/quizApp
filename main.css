@@ -2,17 +2,34 @@
 *{
     font-family: 'Roboto Mono', monospace;
 }
+body{
+    background-color: #42c2ed;
+}
 
 .quiz-container{
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    background-color: red;
+    background-color:#d4d2c9;
     height: 50vh;
     width: 50vw;
     margin-top: 25vh;
     margin-left: 25%;
+    border-radius: 1rem;
+    
+}
+ul{
+    list-style: none;
+}
+.submit{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 20%;
+    border-radius: 1rem;
+    
 }
 h2{
     margin-left: 2rem;
