@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 *{
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto" ,sans-serif;
 }
 body{
-    background-color: #42c2ed;
+    background-color: #30fff8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quiz-container{
@@ -12,30 +16,37 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    background-color:#d4d2c9;
-    height: 50vh;
-    width: 50vw;
+    text-align: left;
+    background-color:white;
+    height: 20rem;
+    width:25rem;
     margin-top: 25vh;
-    margin-left: 25%;
     border-radius: 1rem;
     
 }
 ul{
     list-style: none;
+    
 }
 .submit{
     width: 100%;
     position: absolute;
     bottom: 0;
     height: 20%;
+    left:0;
     border-radius: 1rem;
     font-size: 1.5rem;
     cursor: pointer;
 }
 h2{
     margin-left: 2rem;
+    margin-top: 0%;
 }
 .submit:hover{
     color: royalblue;
     
+}
+ul li{
+    
+    margin: 0.6rem;
 }
