@@ -49,6 +49,10 @@ function loadQuestion(){
     const current=questions[index];
     if(index==(questions.length-1)){
         submit.innerHTML="Submit";
+        
+    }
+    else if(index==questions.length){
+        alert("You have finished the quiz !!!");
     }
     que.innerHTML=current.question;
     a.innerHTML=current.a;
