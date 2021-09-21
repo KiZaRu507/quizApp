@@ -1,10 +1,10 @@
 const questions=[{
-    question:'What is my name?',
-    a:'Sumukh',
-    b:'KiZaRu',
-    c:'John',
-    d:'Harvey',
-    answer:'a'
+    question:'Which is the best web series?',
+    a:'Money heist',
+    b:'The Mentalist',
+    c:'Mirzapur',
+    d:'Sutis',
+    answer:'d'
 },
 {
     question:'Will Kashmir Vlog Ever Make its way out of Anshu s phone ?',
@@ -16,20 +16,20 @@ const questions=[{
 
 },
 {
-    question:'Who is the father of computers?',
-    a:'Charles Babbage',
-    b:'KiZaRu',
-    c:'My dad',
-    d:'Fuck its Kim jong un',
+    question:'Which is the best anime series ?',
+    a:'One piece',
+    b:'Naruto',
+    c:'Gintama',
+    d:'DeathNote',
     answer:'a'
 },
 {
-    question:'Are you vaccinated?',
-    a:'Yes',
-    b:'No',
-    c:'Im waiting for an appointment ',
-    d:'I dont believe in vaccines',
-    answer:'a'
+    question:'Which is the best indian web series?',
+    a:'Asur',
+    b:'Mirzapur',
+    c:'The Family man ',
+    d:'Sacred games',
+    answer:'c'
 }];
 let score=0;
 const que=document.getElementById("question");
